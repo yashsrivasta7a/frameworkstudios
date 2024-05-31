@@ -47,6 +47,21 @@ function Carousel() {
         }
     }
 
+    const options2 = {
+        type: 'loop',
+        height: '50vh',
+        autoWidth: true,
+        gap: '1rem',
+        drag: 'free',
+        arrows: false,
+        pagination: false,
+        autoScroll: {
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            speed: -2,
+        }
+    }
+
 
     return (
         <section id='carousel'>
@@ -75,12 +90,6 @@ function Carousel() {
                             <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/bc13d5157456733.63792f8a385be.jpg" alt="5" />
                         </SplideSlide>
                         <SplideSlide>
-                            <img src="https://www.manasjha.me/images/projects/enstruments.png" alt="6" />
-                        </SplideSlide>
-                        <SplideSlide>
-                            <img src="https://www.manasjha.me/images/projects/pixelcode.png" alt="7" />
-                        </SplideSlide>
-                        <SplideSlide>
                             <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/92ebe2136681405.61fd9c8cac548.png" alt="9" />
                         </SplideSlide>
                         <SplideSlide>
@@ -89,6 +98,24 @@ function Carousel() {
                     </SplideTrack>
                 </div>
             </Splide>
+
+            {/* <Splide
+                options={options2}
+                hasTrack={false}
+                extensions={{ AutoScroll }}
+                className='splide2'
+            >
+                <div style={{ position: 'relative' }}>
+                    <SplideTrack>
+                        <SplideSlide>
+                            <img src="https://www.manasjha.me/images/projects/enstruments.png" alt="6" />
+                        </SplideSlide>
+                        <SplideSlide>
+                            <img src="https://www.manasjha.me/images/projects/pixelcode.png" alt="7" />
+                        </SplideSlide>
+                    </SplideTrack>
+                </div>
+            </Splide> */}
         </section >
     )
 }
