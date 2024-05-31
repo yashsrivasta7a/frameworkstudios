@@ -9,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #000000;
 }
 
 ::-webkit-scrollbar {
@@ -40,8 +41,7 @@ body {
 }
 
 .colorChange {
-    background-color: #fff;
-    color: #000;
+    backdrop-filter: blur(10px);
     transition: all 0.3s;
 }
 
@@ -136,7 +136,7 @@ nav a {
 }
 
 .splide {
-    width: 100%;
+    width: 90%;
     height: auto;
     padding: 1.3rem;
 }
@@ -146,6 +146,11 @@ nav a {
     height: 100%;
     border-radius: 1.5rem;
     transform: perspective(800px) rotateX(40deg);
+    transition: all 0.3s;
+}
+
+.splide img:hover {
+    transform: perspective(800px) rotateX(0deg) scale(0.9);
 }
 
 .splide2 img {
