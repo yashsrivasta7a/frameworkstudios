@@ -10,8 +10,8 @@ function Landing() {
         <div className="text">
           <h1 className="title">FrameWork</h1>
           <h2 className="subtitle">Studios</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo cumque sunt quisquam nulla necessitatibus. Nihil ullam quod illo, accusamus, similique molestiae earum debitis quia fugiat amet modi sit, perspiciatis facere!</p>
-          <button class="btn-12">
+          <p>Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</p>
+          <button className="btn-12">
             <span>Button</span>
           </button>
         </div>

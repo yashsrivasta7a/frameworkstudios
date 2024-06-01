@@ -1,45 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.Container{
-    display: flex;
-    justify-content: space-between;
-    height: 100vh;
-    background-color: #fffff;
-}
-p {
-    width: 30rem;
-    margin-left: 17%;
-    margin-bottom: 2rem;
+.Container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #ffffff;
 }
 
-.text{
-    padding-left: 10rem;
-    padding-bottom:10rem ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
+.Container p {
+  width: 30rem;
+  margin-left: 17%;
+  margin-bottom: 2rem;
 }
+
+.text {
+  padding-left: 10rem;
+  padding-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
 .btn-12,
 .btn-12 *,
 .btn-12 :after,
 .btn-12 :before,
 .btn-12:after,
 .btn-12:before {
-    z-index: 0;
+  z-index: 0;
   border: 0 solid;
   box-sizing: border-box;
 }
 
 .btn-12 {
-    right: 25%;
+  right: 25%;
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
   background-color: #000;
   background-image: none;
   color: #fff;
- cursor: pointer;
+  cursor: pointer;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
@@ -83,15 +85,13 @@ p {
 
 .btn-12:after,
 .btn-12:before {
-  background: linear-gradient(
-    90deg,
-    #2639ED 25%,
-    transparent 0,
-    transparent 50%,
-    #2639ED 0,
-    #2639ED 75%,
-    transparent 0
-  );
+  background: linear-gradient(90deg,
+      #2639ED 25%,
+      transparent 0,
+      transparent 50%,
+      #2639ED 0,
+      #2639ED 75%,
+      transparent 0);
   content: "";
   inset: 0;
   position: absolute;
@@ -101,16 +101,14 @@ p {
 
 .btn-12:after {
   --progress: -100%;
-  background: linear-gradient(
-    90deg,
-    transparent 0,
-    transparent 25%,
-    #2639ED 0,
-    #2639ED 50%,
-    transparent 0,
-    transparent 75%,
-    #2639ED 0
-  );
+  background: linear-gradient(90deg,
+      transparent 0,
+      transparent 25%,
+      #2639ED 0,
+      #2639ED 50%,
+      transparent 0,
+      transparent 75%,
+      #2639ED 0);
   z-index: -2;
 }
 
@@ -120,62 +118,64 @@ p {
 }
 
 
-.title{
-    position: relative;
-    z-index: 10;
-    font-family: Inter;
-font-weight: 900;
-letter-spacing: -1.54px;
-font-size: 5rem;
-margin-bottom: 0;
-margin-left: 10%;
+.title {
+  position: relative;
+  z-index: 10;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  letter-spacing: -1.54px;
+  font-size: 5rem;
+  margin-bottom: 0;
+  margin-left: 10%;
 }
 
-.subtitle{
-    position: relative;
-    z-index: 2;
-    bottom: 1rem;
-    font-family: Inter;
-font-weight: 200;
-letter-spacing: -1.54px;
-font-size: 2rem;
-margin-top: 0;
-margin-bottom: 0;
-margin-left: 10%;
-text-align: center;
+.subtitle {
+  position: relative;
+  z-index: 2;
+  bottom: 1rem;
+  font-family: Inter;
+  font-weight: 200;
+  letter-spacing: -1.54px;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10%;
+  text-align: center;
 }
 
-.elli{
-    position: absolute;
-    z-index: -2;
-    left: 50%;
-    top: 19%;
+.elli {
+  position: absolute;
+  z-index: -2;
+  left: 50%;
+  top: 19%;
 }
-.rect{
-    position: absolute;
-    z-index:-1;
-    left: 80%;
-    top: 75%;
-    
+
+.rect {
+  position: absolute;
+  z-index: -1;
+  left: 80%;
+  top: 75%;
+
 }
 
 .imgs {
-    float: right;
-    height:65%;
-    top: 15.5%;
-    position: relative;
-    z-index: 10;
+  float: right;
+  height: 65%;
+  top: 15.5%;
+  position: relative;
+  z-index: 10;
 }
 
-.dot{
-    position: absolute;
-    z-index: -1;
-    left: 8%;
-    top: 29rem;
+.dot {
+  position: absolute;
+  z-index: -1;
+  left: 8%;
+  top: 29rem;
 }
-.dot2{
-    position: absolute;
-    z-index: -1;
-    left: 22%;
-    top: 29rem;
+
+.dot2 {
+  position: absolute;
+  z-index: -1;
+  left: 22%;
+  top: 29rem;
 }
