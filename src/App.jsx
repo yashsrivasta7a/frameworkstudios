@@ -1,16 +1,12 @@
-import Navbar from './components/Navbar/Navbar'
-import Home from './components/Home/Home'
-import Carousel from './components/Carousel/Carousel'
-import Testimonials from './components/Testimonials/Testimonials'
+import Landing from "./Components/Landing/Landing"
+import Navbar from "./Components/Navbar/Navbar"
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <Home />
-      <Carousel />
-      <Testimonials />
+      <Landing />
     </>
   )
 }
