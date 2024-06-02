@@ -6,8 +6,10 @@ nav {
     align-items: center;
     color: #000;
     top: 0;
+    left: 0;
     padding: 1rem 0;
     background-color: #fff;
+    border: 1px solid #fff;
     height: 7vh;
     font-family: 'Inter', sans-serif;
     position: fixed;
@@ -37,6 +39,7 @@ nav a {
     font-weight: 400;
     letter-spacing: 0.01rem;
     position: relative;
+    margin: 0 1rem;
 }
 
 nav a:before {
@@ -61,5 +64,29 @@ nav a:hover:before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+}
+
+@media only screen and (min-width: 771px) and (max-width: 1024px) {
+    nav {
+        height: 10vh;
+        width: 100vw;
+        background: linear-gradient(to bottom, #fff 50%, #ffffff00 100%);
+        border: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 770px) {
+    nav {
+        height: 10vh;
+        width: 100vw;
+        background: linear-gradient(to bottom, #fff 50%, #ffffff00 100%);
+        border: none;
+    }
+
+
+    .navlinks a {
+        display: none;
+    }
 }

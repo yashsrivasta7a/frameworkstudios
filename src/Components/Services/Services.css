@@ -6,14 +6,17 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
+    background-color: transparent;
+    z-index: 1;
 }
 
 .services-text {
     width: 40%;
     padding: 1rem;
     position: relative;
+    z-index: 1;
 }
 
 .services-text img {
@@ -92,4 +95,73 @@
 
 .down {
     transform: translate(0, 25px);
+}
+
+@media only screen and (min-width: 771px) and (max-width: 1024px) {
+    #services {
+        padding: 0rem 2rem;
+    }
+
+    .services-text {
+        width: 50%;
+    }
+
+    .services-text h1 {
+        font-size: 2rem;
+    }
+
+    .services-text p {
+        font-size: 1.2rem;
+    }
+
+    .services-types {
+        width: 60%;
+    }
+
+    .service {
+        padding: 2rem 1rem;
+        flex-basis: 40%;
+    }
+
+    .up,
+    .down {
+        transform: translate(0, 0);
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    #services {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .services-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .services-text h1 {
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .services-text p {
+        width: 100%;
+    }
+
+    .services-types {
+        width: 100%;
+    }
+
+    .service {
+        flex-basis: 100%;
+        border: 1px solid #1d1c1c;
+    }
+
+
+    .up,
+    .down {
+        transform: translate(0, 0);
+    }
+
 }

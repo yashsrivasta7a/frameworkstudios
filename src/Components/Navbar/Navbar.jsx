@@ -11,6 +11,7 @@ function Navbar() {
                 <div className='navlinks'>
                     <a href="#landing">Home</a>
                     <a href="#about">About</a>
+                    <a href="#services">Services</a>
                     <a href="#work">Work</a>
                     <a href="#contact">Contact</a>
                 </div>
