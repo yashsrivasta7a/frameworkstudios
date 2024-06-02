@@ -1,7 +1,9 @@
 import "./Landing.css";
 
 import Globe from "./Globe";
-
+import Rectangle from "../../assets/Rect.png"
+import BlueRectangle from "../../assets/BlueRectangle.png"
+import elli from "../../assets/Ellipse.svg"
 function Landing() {
   return (
     // <section id="landing">
@@ -23,17 +25,22 @@ function Landing() {
     //   <img src={dot} className="dot2" alt="front_page_img" />
     // </section>
 
-    <section id="landing">
+    <section id="landing</section>">
       <div className="landing-text">
         <h1>FRAMEWORK</h1>
-        <h3>Creative Studios</h3>
-        <p>Leading digital agency with solid design and development expertise. We build readymade websites, mobile applications, and elaborate online business services.</p>
+        <h3>CREATIVE STUDIOS</h3>
+        <p>Leading digital agency
+           with solid design and development 
+           expertise. We build readymade 
+           websites, mobile applications, and
+            elaborate online business services.</p>
+            <img src={Rectangle} className="Rect" alt="front_page_img" />
+        <img src={BlueRectangle} className="BRect" alt="front_page_img" />
+        <img src={elli} className="Elli" alt="front_page_img" />
+        <img src={elli} className="Elli2" alt="front_page_img" />
         <button className="btn-12">
-          <span>Know More</span>
+          <span>Know More</span>   
         </button>
-      </div>
-      <div className="landing-globe">
-        <Globe />
       </div>
     </section>
 

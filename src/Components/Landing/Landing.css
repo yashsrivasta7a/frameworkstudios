@@ -98,9 +98,7 @@
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  padding: 0 10%;
-  position: relative;
-
+/*
   --dot-bg: white;
   --dot-color: black;
   --dot-size: 2px;
@@ -108,19 +106,22 @@
   background:
     linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
     linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-    var(--dot-color);
+    var(--dot-color);*/
 }
 
 .landing-text {
-  position: relative;
-  z-index: 2;
+  margin-top: 7rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
 }
 
 .landing-text h1 {
+  position: relative;
+  z-index: 100;
+  font-family: 'inter',sans-serif;
   font-size: 10rem;
   line-height: 1;
   font-weight: 900;
@@ -129,33 +130,64 @@
   color: transparent;
   white-space: pre-wrap;
   background-clip: text;
-  background-image: linear-gradient(to bottom, #ff105f, #ffad06);
+  background-image: linear-gradient(to bottom, #5F6ACB 0%, #2F3465 100%);
   background-color: #000000;
   pointer-events: none;
+  padding-bottom: 0;
 }
 
 .landing-text h3 {
+  font-family: 'inter',sans-serif;
+  position: relative;
+  top: -1.5rem;
+  z-index: 101;
   font-size: 4rem;
   font-weight: 400;
   margin-top: 0rem;
   margin-bottom: 1rem;
+  color: #F90;
+}
+.Elli{
+  position: absolute;
+  top: 29%;
+  left: 80%;
+}
+
+.BRect{
+  position: absolute;
+  top: 5%;
+  left: -1%;
+}
+.Elli2{
+  position: absolute;
+  top: 90%;
+  left: -2%;
+}
+
+
+.Rect{
+  position: absolute;
+  top: 50%;
+  right: 0;
 }
 
 .landing-text p {
+  font-family: 'inter',sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 900;
   margin-bottom: 1rem;
+  margin-top: 0%;
   width: 70%;
   font-weight: 400;
 }
-
+/*
 .landing-globe {
-  opacity: 0.85;
+  opacity: 0.0;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-}
+}*/
 
 @media only screen and (min-width: 771px) and (max-width: 1024px) {
   .landing-text h1 {

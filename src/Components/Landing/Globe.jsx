@@ -10,8 +10,8 @@ function Globe() {
 
         const globe = createGlobe(canvasRef.current, {
             devicePixelRatio: 2,
-            width: 700 * 2,
-            height: 700 * 2,
+            width: 500 * 2,
+            height: 500 * 2,
             phi: 0,
             theta: 0,
             dark: 0,
@@ -50,7 +50,7 @@ function Globe() {
         <div className="Globe">
             <canvas
                 ref={canvasRef}
-                style={{ height: 700, width: 700, maxHeight: "100%", maxWidth: "100%", aspectRatio: 1 }}
+                style={{ height: 500, width: 500, maxHeight: "100%", maxWidth: "100%", aspectRatio: 1 }}
             />
         </div>
     )

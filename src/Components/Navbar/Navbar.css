@@ -14,17 +14,17 @@ nav {
     font-family: 'Inter', sans-serif;
     position: fixed;
     width: 100vw;
-    z-index: 101;
+    z-index: 103;
 }
 
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 90%;
+    width: 92%;
     background-color: #fff;
     padding: 1rem;
-    border-radius: 5rem;
+    border-radius: 2rem;
     border: 1px solid #1d1c1c;
 }
 
